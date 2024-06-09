@@ -128,11 +128,11 @@ switch(num){
 //Зробіть сервіс який отримує тризначне число
 //Поверніть користувачу сумму цих чисел
 
-/*const number = prompt ("Введіть трьохзначне число");
+/*const number = prompt ("Введіть трьохзначне число"); //prompt виводить текст в вікні
 
-if (number >= 100 && number <= 999) {
+if (number >= 100 && number <= 999) { // все обовязково має бути всередині іфа
 
-let num1 = Math.floor(number / 100);
+let num1 = Math.floor(number / 100); //так можна визначити кожну цифру з отриманого числа
 let num2 = Math.floor((number % 100) / 10);
 let num3 = number % 10;
 
